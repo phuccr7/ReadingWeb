@@ -1,0 +1,59 @@
+.bg_image {
+    background-image: url("../../assets/imgs/loginbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.logbackground {
+    display: inline;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(/src/assets/imgs/loginbg.png);
+}
+
+.signInForm {
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 60vw;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.signUpForm {
+    width: 500px;
+    height: 500px;
+    margin-left: 60vw;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.forgetPass {
+    width: 400px;
+    height: 410px;
+    margin-left: 60vw;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.col_half {
+    width: 50%;
+    float: left;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.inputText {
+    width: "250px";
+    border-radius: "5%";
+    height: "40px";
+}

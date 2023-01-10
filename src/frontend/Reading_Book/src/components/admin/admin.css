@@ -1,0 +1,246 @@
+.formBook .descriptionFormBook {
+    grid-column: 1 /3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.descriptionFormBook textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.formBook div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.formBook label {
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.submitFormBook {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitFormBook span {
+    background-color: #64ECB3;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.formBook {
+    padding: 40px 50px 30px 50px;
+    display: grid;
+    grid-gap: 40px;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    color: #1f2724;
+}
+
+.react-select__control {
+    border-radius: 10px;
+}
+
+.react-select__menu-list {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.searchAdmin {
+    display: flex;
+    width: 70px;
+    flex: 2;
+}
+
+.searchAdmin input {
+    flex: 3;
+    width: 50px;
+}
+
+
+.nameAddChapter {
+    grid-column: 1/3;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+}
+
+.adminSearchButton {
+    flex: 1;
+    margin-right: 100px;
+    width: 10px;
+    border-radius: 10px;
+}
+
+#searchHomeAdmin {
+    /* width: 800px; */
+    /* flex: 3; */
+    border-radius: 10px;
+}
+
+.admin-search-button {
+    flex: 3;
+    /* width: 100%; */
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#searchHome {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.searchAdmin {
+    flex: 2;
+}
+
+.react-select__value-container {
+    display: flex;
+    height: 50px;
+    /* scroll; */
+    overflow-y: scroll;
+
+}
+
+/* .react-select__menu {
+    overflow-y: scroll;
+
+}    */
+
+
+
+.selectOption {
+    height: 80px;
+}
+
+.formBook input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.mainTittle {
+    width: 100%;
+    background-color: #64ECB3;
+    padding: 10px;
+    padding-bottom: 50px;
+    color: white;
+    position: relative;
+    /* border-radius: 20px; */
+}
+
+
+.mainContent {
+    /* display: ; */
+    position: absolute;
+    width: 98%;
+    top: 120px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.titleManagerBook {
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.titleManagerBook :hover {
+    color: rebeccapurple;
+}
+
+.mainTitleMgb {
+    font-size: 40px;
+
+}
+
+
+table.paleBlueRows {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.paleBlueRows td,
+table.paleBlueRows th {
+    padding: 3px 2px;
+}
+
+.optionAdmin {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.banned {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 20px;
+    background-color: #64ECB3;
+    border-radius: 20px;
+    padding: 0 5px 0 5px;
+
+}
+
+thead {
+    height: 60px;
+}
+
+table.paleBlueRows tbody td {
+    font-size: 17px;
+    height: 50px;
+}
+
+table.paleBlueRows tr:nth-child(even) {
+    background: #BBF5DA;
+}
+
+table.paleBlueRows thead {
+    background: #64ECB3;
+}
+
+table.paleBlueRows thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #141414;
+    text-align: center;
+}
+
+table.paleBlueRows tfoot td {
+    font-size: 20px;
+}
+
+table.paleBlueRows tfoot .links {
+    text-align: right;
+}
+
+table.paleBlueRows tfoot .links a {
+    display: inline-block;
+    background: #92A499;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}

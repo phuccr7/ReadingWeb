@@ -1,0 +1,27 @@
+.dialog {
+    /* width: 20px; */
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonDisagree {
+    color: #f8f3f2;
+    background-color: #19C17B;
+    border-radius: 10px;
+}
+
+.buttonAgree {
+    color: #f8f3f2;
+    background-color: #F82D11;
+    border-radius: 10px;
+
+}
+
+.buttonDisagree :hover {
+    /* border: #19C17B; */
+}
+
+.Dialog {
+    border: #19C17B 2px solid;
+}

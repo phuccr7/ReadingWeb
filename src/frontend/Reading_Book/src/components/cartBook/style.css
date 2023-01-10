@@ -1,0 +1,247 @@
+.card {
+    width: 280px;
+    display: block;
+    margin: 60px auto;
+    box-shadow: 10px 5px 40px 20px #2d1896;
+    transition: 0.25s;
+    
+}
+
+.card:hover {
+    box-shadow: 10px 5px 40px 20px #271580;
+    cursor: pointer;
+}
+
+.card:hover .button-primary {
+    transform: translate(10px, 0);
+}
+
+.card-header {
+   
+    padding: 10px;
+    width: 100%;
+    background-size: contain;
+    color: #fff;
+}
+
+.card-header--title {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.date {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+}
+
+.body-content {
+    margin-top: 10px;
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.button-primary {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #341cac;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.button-primary i {
+    padding-right: 4px;
+}
+
+.designer-link {
+    color: #fff;
+    text-align: center;
+    fon-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.app-header {
+    display: block;
+}
+
+.app-title {
+    display: inline-block;
+    margin: 80px 0 0 0;
+    float: left;
+    position: relative;
+    color: #fff;
+}
+
+.CardBook-header {
+    height: 180px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.CardBook-favorite-header {
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.CardBook {
+ 
+    border: 2px solid rgb(34, 197, 48);
+    border-radius: 20px;
+    width: 250px;
+  
+}
+
+
+
+.app-title h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+.app-title p {
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+.app-title-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.CardBook-body {
+    background-color: #fff;
+    ;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.app-card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    min-height: 700px;
+    margin: 0;
+}
+
+.app-card-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.app-card-list .card {
+    display: inline-block;
+}
+
+.app-card-list .card .card-body {
+    white-space: normal;
+}
+
+.app-card-list1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.app-card-list2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.app-card-list1::-webkit-scrollbar {
+    display: none;
+}
+
+
+.app-card-list1 .card {
+    display: inline-block;
+}
+
+.app-card-list1 .card .card-body {
+    white-space: normal;
+}
+
+
+.designer-link {
+    display: inline-block;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination button {
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: rgb(78, 77, 77);
+    border-color: #eee;
+}
+
+.pagination button.active {
+    font-weight: 900;
+    border-color: #101010;
+    background: rgb(0, 195, 255);
+    color: #101010;
+}
+
+.containFav{
+    overflow-y: scroll;
+    height: 430px;
+}
+
+.containFav::-webkit-scrollbar{
+    width: 0px;
+}
+.containFav::-webkit-scrollbar-track{
+    border-radius: 8px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+}
+.containFav::-webkit-scrollbar-thumb{
+    background: rgb(199, 198, 175); 
+    outline: -1px solid rgb(100, 165, 229);
+    border-radius: 8px;
+
+}
+
+.containFav::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    outline: -1px solid rgb(100, 165, 229);
+    border-radius: 8px;
+  }
